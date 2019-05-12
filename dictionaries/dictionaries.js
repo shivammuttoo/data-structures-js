@@ -18,7 +18,8 @@ class Dictionary {
     delete(key){
         if(this.has(key)){
             delete this.items[key];
-            return true
+            return true   
+				
         }
         return false;
     }
